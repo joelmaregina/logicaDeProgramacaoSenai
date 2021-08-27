@@ -29,7 +29,7 @@ while (contador <= numeroDeAlunos){
     contador++;
 }
 
-
+// Exemplos de For OF e For EACH:
 let listaDeAlunos = ["Marcelo", "Juh", "Cleber", "Wesley", "Adriano"];
 for (const aluno of listaDeAlunos){
     console.log(aluno + " com For OF")
