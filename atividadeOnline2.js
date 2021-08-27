@@ -25,6 +25,8 @@ if (dataDoEvento.getTime() <= dataHoje.getTime())  {
             console.log("Cadastro não permitido! " + nome + ", você não tem idade permitida pelo evento.")
         } else {
                 console.log("Parabéns " + nome + " ! " + "Você tem idade permitida para o evento!")
+
+                //Listando os nomes dos participantes do evento:
                 console.log ("A lista de participantes atuais é: " + listaDeParticipantes);
 
                 //Conferindo se no número de participantes da listaDeParticipantes atingiu o limite:
